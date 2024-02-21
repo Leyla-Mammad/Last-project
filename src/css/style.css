@@ -1,3 +1,80 @@
+ * a:hover{
+color: rgb(0, 255, 89);
+transition: 0.4;
+}
 
 
+@keyframes slide-right-to-left {
+    0% {
+      transform: translateX(30%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
 
+  .home-product-description {
+    animation: slide-right-to-left 2s ease;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes slide-left-to-right {
+    0% {
+      transform: translateX(0%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(5%);
+    }
+  }
+
+  .home-product-img {
+    animation: slide-left-to-right 2s ease;
+    animation-fill-mode: forwards;
+  }
+  .farm{
+    background-image: url("../img/product13-free-img.jpg");
+    width: 100px;
+    height: 500px;
+  }
+
+  .shopdv{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  .shopimg{
+ 
+left: 34%;
+cursor: pointer;
+  }
+  
+.custom-card .quick {
+  position: absolute;
+  top: 85%;
+  left: 34%;
+  opacity: 0;
+  transition: 0.1s;
+  display: flex;
+  align-items: CENTER;
+  cursor: pointer;
+}
+
+.quick-dropdown {
+  visibility: hidden;
+  position: fixed;
+  background-color: white;
+  width: 60% !important;
+  height: 66% !important;
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.quick-dropdown.active {
+  opacity: 1;
+  visibility: visible;
+}

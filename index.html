@@ -12,23 +12,24 @@
 <body style="margin: 0;padding: 0;box-sizing: border-box;overflow-x: hidden;width: 100%;">
     <section class="navbar">
         <div class="container ">
-        <div class="row" style="width:100%; " >
+        <div class="row" style="width:100%; display: flex; justify-content: center;align-items: center; " >
         <div class="leftside col-lg-5 col-sm-5" style="display: flex; justify-content: space-between; align-items: center;">
-           <a  class="home-logo" href="index.html"><img style="width: 80%;" src=".\src\img\organic-store-logo5.svg" alt=""></a> 
-            <a style="color: #011929;" class="lefttitle" href="#">Everything</a>
-            <a style="color: #011929;" class="lefttitle"  href="#">Groceries</a>
-            <a style="color: #011929;" class="lefttitle" href="#">Juice</a>
-               
+           <a  class="home-logo col-lg-5" href="index.html"><img style="width: 90%;" src=".\src\img\organic-store-logo5.svg" alt=""></a> 
+
+           <div class="col-lg-6" style=" display: flex;justify-content: space-around; align-items: center;">
+            <a style="color: #011929;  font-size: 17px;" class="col-lg-2" href="shop.html">Shop</a>
+           <a style="color: rgb(0, 0, 0);  font-size: 17px;" class="col-lg-2" href="about.html">About</a>
+           <a style="color: #011929;  font-size: 17px;" class="col-lg-2" href="contact.html">Contact</a>      
+           </div>         
+           <div class="col-lg-1"></div>
             </div>
-        <div class="middle col-lg-4 col-sm-4"></div>
-        <div class="rightside col-lg-3 col-sm-3" style="display: flex; justify-content: space-around; align-items: center;">
-            <a style="color: rgb(0, 0, 0);" href="about.html" class="col-lg-4 col-sm-4">About</a>
-            <a style="color: #011929;" href="contact.html" class="col-lg-4 col-sm-4">Contact</a>
-            <div  class=" rightside-icons col-lg-4 col-sm-4" style="display:flex; justify-content: space-between; align-items: center;">
-                <a style="color: #0b9710;" href="#" >0.00</a>
+            <div class="middle col-lg-1 col-sm-1"></div>
+        <div class="middle col-lg-4 col-sm-4">
+        </div>
+        <div class="rightside col-lg-2 col-sm-2" style="display: flex; justify-content: space-around; align-items: center;">
+                <a style="color: #0b9710;" href="#"><i class="fa-solid fa-heart"></i></a>
                 <a style="color: #0b9710;" href="#" ><i class="fa-solid fa-basket-shopping"></i></a>
-                <a style="color: #011929;" href="#" ><i class="fa-solid fa-user"></i></a>
-            </div>
+                <a style="color: #0b9710;;" href="#" ><i class="fa-solid fa-user"></i></a>
             
                     
         </div>
@@ -60,22 +61,24 @@
     <SECtion class="boxes" style="background-color: black; padding: 50px 50px;">
         <div class="container " style="padding: 1px 75px;">
             <div class="row" style="display: flex; justify-content: space-between;color: white;">
-              <div  class="col-lg-3" style=" background-color: rgb(47, 47, 47); padding: 40px 20px; font-size: 23px;">
+              <div class="" style="display: flex; justify-content: space-between;">
+              <div style=" background-color: rgb(47, 47, 47); padding: 40px 20px; font-size: 23px; width: 20%;">
                 <a style="color: white;" href="#"><i style="color: #80d426; padding-right: 10px;" class="fa-solid fa-truck"></i>Free Shipping</a>
                 <h6 style="padding: 0 29px;">Above $5 Only</h6>
               </div>
-              <div class="col-lg-3" style="background-color: rgb(47, 47, 47); padding: 40px 20px; font-size: 23px;">
+              <div  style="background-color: rgb(47, 47, 47); padding: 40px 20px; font-size: 23px;width: 20%;">
                 <a style="color: white;" href="#"><i style="color: #80d426; padding-right: 10px;" class="fa-regular fa-address-book"></i>Certified Organic</a>
                 <h6 style="padding: 0 25px;">100% Guarantee</h6>
               </div>
-              <div class="col-lg-3"style="background-color: rgb(47, 47, 47); padding: 40px 20px; font-size: 23px;">
+              <div style="background-color: rgb(47, 47, 47); padding: 40px 20px; font-size: 23px;width: 20%;">
                 <a style="color: white;" href="#"><i style="color: #80d426; padding-right: 10px;" aria-hidden="true" class="far fa-money-bill-alt"></i>Huge Savings</a>
                 <h6 style="padding: 0 29px;">At Lowest Price</h6>
               </div>
-              <div class="col-lg-3" style="background-color: rgb(47, 47, 47); padding: 40px 20px; font-size: 23px;">
+              <div style="background-color: rgb(47, 47, 47); padding: 40px 20px; font-size: 23px;width: 20%;">
                 <a style="color: white;" href="#"><i style="color: #80d426; padding-right: 10px;" aria-hidden="true" class="fas fa-recycle"></i>Easy Returns</a>
                 <h6 style="padding: 0 25px;">No Questions Asked</h6>
               </div>
+            </div>
             </div>
           </div>
 
@@ -101,17 +104,17 @@
         
         <div class="container">
             <div class="row" style="display: flex; justify-content: space-evenly; align-items: center; padding:0 50px;">
-              <div class="col-lg-3 farm" style="padding: 70px 25px; background-image: url(../img/product11-free-img.jpg); background-size: cover; border: solid 1px rgb(255, 255, 255);">
+              <div class="col-lg-3 farm" style="padding: 70px 25px; background-size: cover; border: solid 1px rgb(255, 255, 255);">
                <h3>Farm Fresh Fruits</h3>
                <h6 style="font-weight: 400; font-size:16px; color: #4c4c4d;">Ut sollicitudin quam vel purus tempus, vel eleifend felis varius.</h6>
                <button style="background-color: #6a9739; margin: 20px 0; padding:10px 30px; border: none ; border-radius: 5px;"><span style="color: white;"><i class="fa-solid fa-cart-shopping" style="padding-right: 10px;"></i>SHOP NOW</span></button>
               </div>
-              <div class="col-lg-3" style="padding: 70px 25px;  background-image: url(../img/product13-free-img.jpg); background-size: cover; border: solid 1px white;">
+              <div class="col-lg-3" style="padding: 70px 25px;  background-size: cover; border: solid 1px white;">
                 <h3>Fresh Vegetables</h3>
                 <h6 style="font-weight: 400; font-size:16px; color: #4c4c4d;">Aliquam porta justo nibh, id laoreet sapien sodales vitae justo. </h6>
                 <button style="background-color: #6a9739; margin: 20px 0; padding:10px 30px; border: none ; border-radius: 5px;"><span style="color: white;"><i style="padding-right: 10px;" class="fa-solid fa-cart-shopping"></i>SHOP NOW</span></button>
               </div>
-               <div class="col-lg-3" style="padding: 70px 25px; background-image: url(../img/product17-free-img.jpg); background-size: cover; border: solid 1px white;">
+               <div class="col-lg-3" style="padding: 70px 25px;  background-size: cover; border: solid 1px white;">
                 <h3>Organic Legume</h3>
                 <h6 style="font-weight: 400; font-size:16px; color: #4c4c4d;">Phasellus sed urna mattis, viverra libero sed, aliquam est.</h6>
                 <button style="background-color: #6a9739; margin: 20px 0; padding:10px 30px; border: none ; border-radius: 5px;"><span style="color: white;"><i style="padding-right: 10px;" class="fa-solid fa-cart-shopping"></i>SHOP NOW</span></button>
@@ -164,6 +167,7 @@
         <span>Mila Kunis</span>
         </div>
           <div class="col-lg-3 col-sm-3 middle-img" style="position: relative; padding: 60px 0 20px 0; margin-top: -80px;border-radius: 10px; background-image: url(https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/sydney-rae-668606-unsplash.jpg);background-size: cover;">
+            <div style="background-color: #000000;position: absolute; top: 0;left: 0; width: 100%; height: 100%; opacity: 50%;"></div>
             <h3 style="margin: 0 35px 0 35px; color: white; font-size:35px;">Deal Of The Day 15% Off On All Vegetables!</h3>
             <h6 style="margin:20px 20px 80px 20px; color: white;">I am text block. Click edit button to change this tex em ips.</h6>
 
@@ -279,7 +283,9 @@ body a{    text-decoration: none !important ;}
 .middle-img::before:hover{ position: absolute;
     --background-overlay: '';
     background-color: var(--e-global-color-astglobalcolor2);}
-
+.rightside:hover{
+  color: #0b9710;
+}
      </style>
 </body>
 </html>
